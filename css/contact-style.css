@@ -1,0 +1,22 @@
+/********************************
+JUMBOTRON
+*********************************/
+.jumbotron {
+    background: url("../img/RozShelfContact.jpg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 350px;
+}
+/********************************
+FONTS
+*********************************/
+
+/********************************
+MARGINS/ PADDING
+*********************************/
+ul {
+    padding-left: 1rem;
+}
+#main-content {
+    padding-bottom: 3rem;
+}

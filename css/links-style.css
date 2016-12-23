@@ -1,0 +1,27 @@
+/********************************
+JUMBOTRON
+*********************************/
+.jumbotron {
+    background: url("../img/RozShelfLinks.jpg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 350px;
+}
+/********************************
+FONT
+*********************************/
+.recommend-link {
+    color: black;
+}
+.recommend-link:visited {
+    color: #800000;
+}
+/********************************
+MARGINS/ PADDING
+*********************************/
+ul {
+    padding-left: 1rem;
+}
+#main-content {
+    padding-bottom: 3rem;
+}

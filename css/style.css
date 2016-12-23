@@ -1,0 +1,58 @@
+/********************************
+JUMBOTRON
+*********************************/
+.jumbotron {
+    background: url("../img/RozShelfFreelanceEditor.jpg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 350px;
+}
+/********************************
+MARGINS/ PADDING
+*********************************/
+#main-nav,
+.footer-container {
+    margin: 0;
+    padding: 0;
+}
+/********************************
+FONTS
+*********************************/
+.nav-link {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+p, h2, li {
+    font-family: 'Libre Baskerville', serif;
+}
+u {
+    font-size: 1.1rem;
+}
+/********************************
+COLORS
+*********************************/
+.main-nav-container {
+    background-color: #f0f0f0;
+}
+a,
+a:visited {
+    color: #002b80;
+}
+a:hover {
+    color: #0052cc;
+}
+#footer .col-xs:hover {
+    background-color: #222222;
+}
+/********************************
+FOOTER
+*********************************/
+#footer {
+    height: 50px; 
+    background-color: black;
+}
+.social-media-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
