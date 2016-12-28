@@ -7,8 +7,12 @@
         height: 150px;
     }
     .nav-link {
-        font-size: 1rem;
+        font-size: 0.75rem;
         letter-spacing: 0px;
+    }
+    .social-media-icon {
+        width: 1rem;
+        height: 1rem;
     }
 }
 
