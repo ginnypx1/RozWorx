@@ -32,8 +32,15 @@ u {
 /********************************
 COLORS
 *********************************/
+body {
+    background-color: black;
+    color: white;
+}
+p {
+    color: white;
+}
 .main-nav-container {
-    background-color: #f0f0f0;
+    background-color: #111111;
 }
 a,
 a:visited {
@@ -43,7 +50,7 @@ a:hover {
     color: #0052cc;
 }
 #footer .col-xs:hover {
-    background-color: #222222;
+    background-color: #111111;
 }
 /********************************
 FOOTER
