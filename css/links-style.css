@@ -7,12 +7,16 @@ JUMBOTRON
     background-size: 100%;
     height: 350px;
 }
+body {
+    background: url("../img/backgrounds/white_wall2_@2X.jpg") repeat;
+}
+.main-nav-container,
+#footer {
+    background: url("../img/blackBackgrounds/wood_1_@2X.png") repeat;
+}
 /********************************
 FONT
 *********************************/
-.recommend-link {
-    color: white;
-}
 .recommend-link:visited {
     color: #800000;
 }

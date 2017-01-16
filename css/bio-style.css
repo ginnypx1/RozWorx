@@ -7,3 +7,10 @@ JUMBOTRON
     background-size: 100%;
     height: 350px;
 }
+body {
+    background: url("../img/backgrounds/lightpaperfibers_@2X.png") repeat;
+}
+.main-nav-container,
+#footer {
+    background: url("../img/blackBackgrounds/tweed_@2X.png") repeat;
+}
