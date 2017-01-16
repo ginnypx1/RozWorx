@@ -41,10 +41,10 @@ COLORS
 *********************************/
 a,
 a:visited {
-    color: #B44D30;
+    color: #B44D30; /* rust */
 }
 a:hover {
-    color: #C67E4E;
+    color: #C67E4E; /* lighter rust */
 }
 #footer .col-xs:hover {
     background-color: #111111;
