@@ -14,16 +14,3 @@ body {
 #footer {
     background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
 }
-/********************************
-FONTS
-*********************************/
-
-/********************************
-MARGINS/ PADDING
-*********************************/
-ul {
-    padding-left: 1rem;
-}
-#main-content {
-    padding-bottom: 3rem;
-}

@@ -12,10 +12,7 @@
     <title>Roz Wesiberg | Links</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Unique CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/links-style.css">
@@ -23,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/services-responsive.css">
     <link rel="shortcut icon" type="image/xicon" href="img/r-favicon.ico">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&#124;Libre+Baskerville" rel="stylesheet">
   </head>
   <body>
     <!-- jumbotron -->
@@ -33,75 +30,83 @@
       </div>
     </div>
     <!-- navbar -->
-    <nav class="navbar navbar-light bg-faded py-0.5 main-nav-container">
+    <nav class="navbar" id="main-nav-container">
       <div id="main-nav" class="container mx-auto">
-        <div class="row">
-          <div class="col-xs text-xs-center">
-            <a class="nav-link text-uppercase" href="index.html">Home</a>
+        <div class="row text-uppercase text-center">
+          <div class="col">
+            <a class="nav-link" href="index.html">Home</a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a class="nav-link text-uppercase" href="services.html">Services</a>
+          <div class="col">
+            <a class="nav-link" href="services.html">Services</a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a class="nav-link text-uppercase" href="bio.html">Bio</a>
+          <div class="col">
+            <a class="nav-link" href="bio.html">Bio</a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a class="nav-link text-uppercase" href="links.html">Links<span class="sr-only">(current)</span></a>
+          <div class="col">
+            <a class="nav-link" href="links.html">Links<span class="sr-only">(current)</span></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+          <div class="col">
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <!-- main content -->
-    <div id="main-content" class="container col-md-7 offset-md-1 pt-1 px-3 text-justify">
-      <ul>
-        <li><a href="https://www.amazon.com" class="recommend-link">Really great article</a></li>
-        <li><a href="https://www.breitbart.com" class="recommend-link">Another great article</a></li>
-        <li><a href="https://www.breitbart.com/" class="recommend-link">Really fascinating article</a></li>
-        <li><a href="https://www.amazon.com" class="recommend-link">Really super great article</a></li>
-        <li><a href="https://www.amazon.com" class="recommend-link">Really great article</a></li>
-        <li><a href="https://www.amazon.com" class="recommend-link">Books you should read</a></li>
-        <li><a href="https://www.breitbart.com/" class="recommend-link">5 ways to improve your writing style today</a></li>
-        <li><a href="https://www.breitbart.com/" class="recommend-link">My very favorite chocolate chip cookie recipe</a></li>
-        <li><a href="https://www.breitbart.com/" class="recommend-link">Cats!</a></li>
-        <li><a href="https://www.amazon.com" class="recommend-link">These novels were rejected three times before they were published</a></li>
-        <li><a href="https://www.amazon.com" class="recommend-link">Read this right now!</a></li>
-      </ul>
-    </div>
-    <div id="secondary-content" class="container col-md-3 pt-1 pb-3 px-1 text-justify">
-      <p>For whatever reason, these are links that I feel will enrich your life and make you a better person. You should read them all asap.</p>
-      <p><a href="mailto:rozweisberg@gmail.com"><u class="font-weight-bold">Email Me</u></a> if you want to discuss any of them or send a new interesting link.</p>
-    </div>
+    <!-- wrapper -->
+    <div class="container pb-5">
+
+      <!-- main content -->
+      <div class="row pt-3">
+        <div id="main-content" class="container col-md-7 col-offset-1 text-justify">
+          <ul class="pl-1">
+            <li><a href="https://www.amazon.com" class="recommend-link">Really great article</a></li>
+            <li><a href="https://www.breitbart.com" class="recommend-link">Another great article</a></li>
+            <li><a href="https://www.breitbart.com/" class="recommend-link">Really fascinating article</a></li>
+            <li><a href="https://www.amazon.com" class="recommend-link">Really super great article</a></li>
+            <li><a href="https://www.amazon.com" class="recommend-link">Really great article</a></li>
+            <li><a href="https://www.amazon.com" class="recommend-link">Books you should read</a></li>
+            <li><a href="https://www.breitbart.com/" class="recommend-link">5 ways to improve your writing style today</a></li>
+            <li><a href="https://www.breitbart.com/" class="recommend-link">My very favorite chocolate chip cookie recipe</a></li>
+            <li><a href="https://www.breitbart.com/" class="recommend-link">Cats!</a></li>
+            <li><a href="https://www.amazon.com" class="recommend-link">These novels were rejected three times before they were published</a></li>
+            <li><a href="https://www.amazon.com" class="recommend-link">Read this right now!</a></li>
+          </ul>
+        </div>
+        <div id="secondary-content" class="container col-md-4 ml-1 mr-1 text-justify">
+          <p>For whatever reason, these are links that I feel will enrich your life and make you a better person. You should read them all asap.</p>
+          <p><a href="mailto:rozweisberg@gmail.com"><u class="font-weight-bold">Email Me</u></a> if you want to discuss any of them or send a new interesting link.</p>
+        </div>
+      </div>
+
+    </div><!-- end wrapper -->
+
     <!-- footer -->
-    <nav id="footer" class="navbar navbar-fixed-bottom">
+    <nav id="footer" class="navbar fixed-bottom">
       <div class="container footer-container mx-auto" >
-        <div class="row">
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/mail-white-outline.png"></a>
+        <div class="row text-center">
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/mail-white-outline.png" alt="icon for email"></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/facebook-white-outline.png"></a>
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/facebook-white-outline.png" alt="icon for facebook"></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/twitter-white-outline.png"></a>
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/twitter-white-outline.png" alt="icon for twitter"></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/linkedin-white-outline.png"></a>
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/linkedin-white-outline.png" alt="icon for linkedIn"></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/instagram-white-outline.png"></a>
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/instagram-white-outline.png" alt="icon for instagram"></a>
           </div>
-          <div class="col-xs text-xs-center">
-            <a href="#" class="text-xs-center"><img class="social-media-icon" src="img/socialMediaIcons/goodreads-white-outline.png"></a>
+          <div class="col">
+            <a href="#"><img class="social-media-icon" src="img/socialMediaIcons/goodreads-white-outline.png" alt="icon for goodreads"></a>
           </div>
         </div>
       </div>
     </nav>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>

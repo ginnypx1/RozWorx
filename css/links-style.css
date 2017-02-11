@@ -8,24 +8,15 @@ JUMBOTRON
     height: 350px;
 }
 body {
-    background: url("../img/backgrounds/white_wall2_@2X.jpg") repeat;
+    background: url("../img/backgrounds/notebook_@2X.png") repeat;
 }
 .main-nav-container,
 #footer {
-    background: url("../img/blackBackgrounds/wood_1_@2X.png") repeat;
+    background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
 }
 /********************************
 FONT
 *********************************/
 .recommend-link:visited {
     color: #800000;
-}
-/********************************
-MARGINS/ PADDING
-*********************************/
-ul {
-    padding-left: 1rem;
-}
-#main-content {
-    padding-bottom: 3rem;
 }

@@ -8,9 +8,9 @@ JUMBOTRON
     height: 350px;
 }
 body {
-    background: url("../img/backgrounds/lightpaperfibers_@2X.png") repeat;
+    background: url("../img/backgrounds/concrete_wall_3_@2X.png") repeat;
 }
 .main-nav-container,
 #footer {
-    background: url("../img/blackBackgrounds/tweed_@2X.png") repeat;
+    background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
 }

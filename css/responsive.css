@@ -1,13 +1,13 @@
 /* Extra-small devices (portrait phones, less than 544px) */
 @media screen and (max-width: 543px) {
-    /*body {
-        background-color: red;
+    /*#main-nav-container {
+        background: red;
     }*/
     .jumbotron {
         height: 150px;
     }
     .nav-link {
-        font-size: 0.75rem;
+        font-size: 0.57rem;
         letter-spacing: 0px;
     }
     .social-media-icon {
@@ -18,31 +18,34 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 544px) and (max-width: 767px) {
-    /*body {
+    /*#main-nav-container {
         background-color: orange;
     }*/
     .jumbotron {
         height: 225px;
     }
     .nav-link {
-        font-size: 1.25rem;
+        font-size: 0.73rem;
     }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
-    /*body {
+    /*#main-nav-container {
         background-color: yellow;
     }*/
     .jumbotron {
         height: 315px;
+    }
+    .nav-link {
+        font-size: 1.27rem;
     }
     
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    /*body {
+    /*#main-nav-container {
         background-color: green;
     }*/
 }

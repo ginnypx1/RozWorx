@@ -8,19 +8,11 @@ BACKGROUNDS
     height: 350px;
 }
 body {
-    background: url("../img/backgrounds/lightpaperfibers_@2X.png") repeat;
+    background: url("../img/backgrounds/concrete_wall_3_@2X.png") repeat;
 }
-.main-nav-container,
+#main-nav-container,
 #footer {
     background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
-}
-/********************************
-MARGINS/ PADDING
-*********************************/
-#main-nav,
-.footer-container {
-    margin: 0;
-    padding: 0;
 }
 /********************************
 FONTS
@@ -46,7 +38,7 @@ a:visited {
 a:hover {
     color: #C67E4E; /* lighter rust */
 }
-#footer .col-xs:hover {
+#footer .col:hover {
     background-color: #111111;
 }
 /********************************
