@@ -17,16 +17,7 @@ body {
 /********************************
 FONTS
 *********************************/
-.section-header {
+h2 {
     font-size: 1.25rem;
     color: #B44D30; /* rust */
-}
-u {
-    font-size: 1.05rem;
-}
-/********************************
-MARGINS/PADDING
-*********************************/
-ul {
-    padding-left: 1rem;
 }

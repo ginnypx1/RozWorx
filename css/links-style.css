@@ -15,8 +15,8 @@ body {
     background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
 }
 /********************************
-FONT
+FONTS
 *********************************/
-.recommend-link:visited {
-    color: #800000;
+h2 {
+    font-size: 1.15rem;
 }
