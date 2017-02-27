@@ -14,9 +14,6 @@ body {
 #footer {
     background: url("../img/blackBackgrounds/dark_wall_@2X.png") repeat;
 }
-/********************************
-LINE HEIGHT CORRECTION
-*********************************/
-body {
-    line-height: 1rem;
+#credits {
+    font-size: 0.8rem;
 }

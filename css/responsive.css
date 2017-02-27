@@ -7,8 +7,9 @@
         height: 150px;
     }
     .nav-link {
-        font-size: 0.57rem;
+        font-size: 0.75rem;
         letter-spacing: 0px;
+        flex-wrap: wrap;
     }
     .social-media-icon {
         width: 1rem;
